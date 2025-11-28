@@ -3,7 +3,7 @@
 A simple and elegant macOS app that generates WiFi network names using only emojis! 🚀📶✨
 
 ## 📥 Download it now
-[**Download EmojiWifi for macOS**](https://github.com/dparksports/emoji-wifi-mac-public/releases/download/v1.5/EmojiWifi_Notarized.zip)
+[**Download EmojiWifi for macOS**](https://github.com/dparksports/emoji-wifi-mac-public/releases/download/v1.6/EmojiWifi_Notarized.zip)
 *(Requires macOS 13.0 or later)*
 
 ## Features
