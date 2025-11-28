@@ -12,65 +12,60 @@ A simple and elegant macOS app that generates WiFi network names using only emoj
 - **Beautiful modern UI** with smooth animations
 - **Copy to clipboard** functionality
 - **Browse all combinations** with search functionality
-- **60+ curated emoji combinations** across various themes:
-  - Tech & Internet (💻📶🌐)
-  - Space & Sci-Fi (🚀🛰️🌌)
-  - Gaming (🎮🎵🎧)
-  - Music (🎵🎧🎤)
-  - Nature (🌲🌻🌱)
-  - Food (🍕🍔🍟)
-  - And many more!
-
-## Requirements
-
-- macOS 13.0 or later
-- Swift 5.9 or later
-
-## Installation & Usage
-
-1. Clone or download this repository
-2. Open Terminal and navigate to the project directory
-3. Build the app:
-   ```bash
-   swift build
-   ```
-4. Run the app:
-   ```bash
-   swift run EmojiWifi
-   ```
+- **QR Code Support**:
+  - Generate QR codes for your networks
+  - Import QR codes from images
+  - Live scan QR codes using your camera
+- **Auto-Join**: Connect to networks directly from the app
 
 ## How to Use
 
-1. **Choose your style**: Select from Combination, Single Emoji, or Random Length
-2. **Generate**: Click the "Generate" button to create a new emoji WiFi name
-3. **Copy**: Use the "Copy" button to copy the generated name to your clipboard
-4. **Browse**: Click "View All" to see all available combinations and search through them
+### 1. Generate WiFi
+Create unique, secure, and fun WiFi credentials.
+- **Select Style**: Choose between "Combination", "Single Emoji", or "Random Length".
+- **Generate**: Click the "Generate WiFi Name" button.
+- **Results**: The app displays the generated Name, Password, and a QR Code.
+- **Copy**: Click the copy icons to copy the name or password to your clipboard.
 
-## Examples
+![Generate WiFi Screen](screenshots/generate_wifi.png)
 
-Some example emoji WiFi names you might generate:
+### 2. Password Options
+Customize the security of your generated passwords.
+- **Length**: Adjust the password length (8-63 characters).
+- **Complexity**: Toggle Uppercase, Lowercase, Numbers, and Special Characters.
+- **Preview**: See a live preview of the password format.
 
-- 🚀🛰️🌌 (Space Station)
-- 🎮🎵🎧 (Gaming Hub)
-- 🍕🍔🍟 (Food Network)
-- 😎🔥⚡ (Cool Zone)
-- 🌲🌻🌱 (Nature WiFi)
-- 💻📶🌐 (Tech Hub)
+![Password Options Screen](screenshots/password_options.png)
 
-## Themes
+### 3. View Combinations
+Browse the library of curated emoji WiFi names.
+- **Search**: Type to find specific themes (e.g., "Space", "Food").
+- **Copy**: Click any card to copy the emoji string to your clipboard.
 
-The app includes emoji combinations for various themes:
+![View Combinations Screen](screenshots/view_combinations.png)
 
-- **Technology**: Computers, networks, internet, gaming
-- **Space**: Rockets, satellites, galaxies, astronauts
-- **Nature**: Trees, flowers, animals, landscapes
-- **Food**: Pizza, burgers, snacks, desserts
-- **Music**: Instruments, headphones, microphones
-- **Emotions**: Cool, happy, mysterious, playful
-- **Weather**: Sun, rain, storms, rainbows
-- **And many more!**
+### 4. Import QR Code Image
+Extract WiFi credentials from a saved QR code image.
+- **Select Image**: Click to browse your files for a QR code image.
+- **Process**: The app extracts the SSID and Password.
+- **Use**: Click "Use This WiFi" to load it into the main generator or join it.
 
-Perfect for creating unique, memorable WiFi network names that stand out! 🌟
+![Import QR Code Screen](screenshots/import_qr.png)
+
+### 5. Live Scan QR Code
+Scan a WiFi QR code using your Mac's camera.
+- **Scan**: Click "Scan QR Code" to open the camera view.
+- **Detect**: Hold a QR code in front of the camera.
+- **Result**: The app automatically detects and parses the WiFi credentials.
+
+![Live Scan Screen](screenshots/live_scan.png)
+
+### 6. Join WiFi
+Connect to a network directly.
+- **Status**: Shows the currently loaded Network Name and Password.
+- **Join**: Click "Join WiFi Network" to attempt a connection using the system network interface.
+
+![Join WiFi Screen](screenshots/join_wifi.png)
 
 ## License
 
