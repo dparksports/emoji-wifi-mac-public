@@ -35,14 +35,14 @@ Customize the security of your generated passwords.
 - **Complexity**: Toggle Uppercase, Lowercase, Numbers, and Special Characters.
 - **Preview**: See a live preview of the password format.
 
-![Password Options Screen](screenshots/password_options.png)
+![Password Options Screen](screenshots/password-options.png)
 
 ### 3. View Combinations
 Browse the library of curated emoji WiFi names.
 - **Search**: Type to find specific themes (e.g., "Space", "Food").
 - **Copy**: Click any card to copy the emoji string to your clipboard.
 
-![View Combinations Screen](screenshots/view_combinations.png)
+![View Combinations Screen](screenshots/view-combinations.png)
 
 ### 4. Import QR Code Image
 Extract WiFi credentials from a saved QR code image.
@@ -50,7 +50,7 @@ Extract WiFi credentials from a saved QR code image.
 - **Process**: The app extracts the SSID and Password.
 - **Use**: Click "Use This WiFi" to load it into the main generator or join it.
 
-![Import QR Code Screen](screenshots/import_qr.png)
+![Import QR Code Screen](screenshots/easy-share-credential.png)
 
 ### 5. Live Scan QR Code
 Scan a WiFi QR code using your Mac's camera.
