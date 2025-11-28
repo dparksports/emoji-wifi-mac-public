@@ -50,9 +50,17 @@ Extract WiFi credentials from a saved QR code image.
 - **Process**: The app extracts the SSID and Password.
 - **Use**: Click "Use This WiFi" to load it into the main generator or join it.
 
-![Import QR Code Screen](screenshots/easy-share-credential.png)
+![Import QR Code Screen](screenshots/copy-credential-from-screenshot.png)
 
-### 5. Live Scan QR Code
+### 5. Easy Sharing
+Share your WiFi credentials instantly, even with complex passwords.
+- **QR Code**: The app generates a clear QR code for your network.
+- **Scan to Join**: Guests can simply scan the code with their phone camera to join immediately—no typing required!
+- **Secure**: Perfect for sharing long, secure passwords without the hassle.
+
+![Easy Sharing Screen](screenshots/easy-share-credential.png)
+
+### 6. Live Scan QR Code
 Scan a WiFi QR code using your Mac's camera.
 - **Scan**: Click "Scan QR Code" to open the camera view.
 - **Detect**: Hold a QR code in front of the camera.
@@ -60,7 +68,7 @@ Scan a WiFi QR code using your Mac's camera.
 
 ![Live Scan Screen](screenshots/live_scan.png)
 
-### 6. Join WiFi
+### 7. Join WiFi
 Connect to a network directly.
 - **Status**: Shows the currently loaded Network Name and Password.
 - **Join**: Click "Join WiFi Network" to attempt a connection using the system network interface.
